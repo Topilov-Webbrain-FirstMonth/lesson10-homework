@@ -1,0 +1,322 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    min-height: 100%;
+    background-color: #212129;
+    color: #fff;
+    font-family: "Roboto", sans-serif;
+}
+
+/* --------------------------Navbar Start-------------------------- */
+nav {
+    padding: 15px 200px 0 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav .logo {
+    text-decoration: none;
+    background-color: #FE4701;
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: 800;
+    width: 50px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    gap: 25px;
+    align-items: center;
+}
+
+nav ul li {
+    list-style-type: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.2rem;
+    transition: 0.1s linear;
+}
+
+nav ul li a:hover {
+    color: #FE4701;
+}
+
+nav .buttons {
+    display: flex;
+    gap: 10px;
+}
+
+nav .buttons button {
+    width: 35px;
+    height: 35px;
+    border: none;
+    background-color: transparent;
+    padding: 10px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    border-radius: 3px;
+    transition: 0.1s linear;
+}
+
+nav .buttons button:hover {
+    background-color: #FE4701;
+}
+
+/* --------------------------Navbar Start-------------------------- */
+
+
+/* --------------------------Header Start-------------------------- */
+header {
+    padding: 15px 100px 5px 120px;
+    display: flex;
+
+}
+
+header .left-side {
+    width: 60%;
+    position: relative;
+}
+
+header .left-side .abs {
+    position: absolute;
+    left: 0;
+    bottom: 30px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+header .left-side .abs div {
+    font-size: 0.7rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.1s linear;
+}
+
+header .left-side .abs div:hover {
+    color: #df0f0f;
+}
+
+header .left-side .title {
+    margin-top: 90px;
+    margin-left: -180px;
+    text-align: center;
+    font-size: 4.5rem;
+    font-weight: 900;
+    line-height: 4.5rem;
+    letter-spacing: 0;
+}
+
+header .left-side .man {
+    width: 51%;
+    position: absolute;
+    top: -20px;
+    right: 30px;
+}
+
+header .left-side .man img {
+    width: 100%;
+}
+
+header .right-side {
+    width: 40%;
+}
+
+header .right-side .top-icons {
+    margin-top: -40px;
+    height: 220px;
+    position: relative;
+}
+
+header .right-side .top-icons .triangle {
+    width: 100px;
+    height: 100px;
+    border-radius: 1px;
+    background-image: linear-gradient(to bottom right, transparent 50%, #383b44 50%);
+    transform: rotate(-160deg);
+    position: absolute;
+    top: 50px;
+    left: 20px;
+}
+
+header .right-side .top-icons .circle {
+    position: absolute;
+    bottom: 30px;
+    left: 45px;
+    width: 80px;
+    height: 80px;
+    background-color: #08FCBF;
+    border-radius: 50%;
+}
+
+header .right-side .red-row {
+    color: #df0f0f;
+    font-size: 0.9rem;
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+}
+
+header .right-side .red-row:last-of-type {
+    margin-top: 5px;
+}
+
+header .right-side .red-row span {
+    text-decoration: underline;
+}
+
+header .right-side .red-row .line {
+    width: 60px;
+    height: 2px;
+    border-radius: 1px;
+    background-color: #df0f0f;
+    position: absolute;
+    top: calc(50% - 1px);
+    left: 100px;
+}
+
+header .right-side .title {
+    margin-top: 20px;
+    font-size: 2rem;
+    font-weight: 600;
+    line-height: 2rem;
+}
+
+header .right-side p {
+    margin: 15px 0 25px 0;
+    font-size: 0.9rem;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+/* --------------------------Header End-------------------------- */
+
+
+
+
+/* --------------------------About Start-------------------------- */
+.about {
+    padding: 100px 200px 50px;
+    display: flex;
+    gap: 5%;
+}
+
+.about .left-side {
+    flex: 1;
+    position: relative;
+}
+
+.about .left-side .red-row {
+    position: relative;
+    top: -30px;
+    color: #df0f0f;
+    font-size: 0.9rem;
+}
+
+.about .left-side .red-row span {
+    text-decoration: underline;
+}
+
+.about .left-side .red-row .line {
+    width: 60px;
+    height: 2px;
+    border-radius: 1px;
+    background-color: #df0f0f;
+    position: absolute;
+    top: calc(50% - 1px);
+    left: 100px;
+}
+
+.about .left-side .title {
+    font-size: 1.6rem;
+    font-weight: 600;
+}
+
+.about .left-side p {
+    margin: 20px 0 30px;
+    font-size: 0.8rem;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.about .left-side .bottom {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.about .left-side .bottom .title {
+    line-height: 1.5rem;
+}
+
+.about .left-side .bottom .number {
+    font-size: 3.5rem;
+    font-weight: 600;
+    color: #ff5408;
+}
+
+.about .right-side {
+    flex: 1;
+}
+
+.about .right-side .title {
+    margin-top: 20px;
+    font-size: 2rem;
+    font-weight: 600;
+    line-height: 2rem;
+}
+
+.about .right-side p {
+    margin: 25px 0 50px 0;
+    font-size: 0.9rem;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.about .right-side .red-row {
+    display: inline-block;
+    text-decoration: none;
+    position: relative;
+    font-size: 0.9rem;
+    color: #df0f0f;
+}
+
+.about .right-side .red-row span {
+    display: block;
+    width: 200px;
+    text-decoration: underline;
+}
+
+.about .right-side .red-row .line {
+    position: absolute;
+    top: -4px;
+    right: -0;
+    width: 25px;
+    height: 25px;
+    border-bottom: 1.5px solid #fc5006;
+    transition: 0.15s ease-in-out;
+}
+
+.about .right-side .red-row .line img {
+    height: 100%;
+}
+
+.about .right-side .red-row:hover .line {
+    right: -15px;
+}
+
+/* --------------------------About End-------------------------- */
